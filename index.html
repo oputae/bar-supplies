@@ -81,7 +81,23 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: transform 0.2s ease;
         }
+        
+        .item-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            cursor: pointer;
+        }
 
+        .item-link:hover {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .item-link .item-name {
+        border-bottom: 1px dotted #666;
+        }
+               
         .item:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
@@ -158,6 +174,18 @@
                     <div class="item">
                         <div class="item-name">Syrah</div>
                         <div class="item-details">Vintage: 2019 | Size: 750ml</div>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.vivino.com/US/en/les-notables-de-maucaillou-le-haut-medoc-de-maucaillou/w/1363749" class="item-link">
+                            <div class="item-name">Le Haut-Médoc de Maucaillou</div>
+                            <div class="item-details">Vintage: 2017 | Size: 750ml</div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.grapeshotnyc.com/products/arnegui-crianza-rioja?variant=48825770639652" class="item-link">
+                            <div class="item-name">Vina Aldaia Rioja Tempranillo Crianza</div>
+                            <div class="item-details">Vintage: 2019 | Size: 750ml</div>
+                        </a>
                     </div>
                 </div>
             </div>
